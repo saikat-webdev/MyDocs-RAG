@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+!.env.example
+venv/
+.venv/
+env/
+.pytest_cache/
+*/__pycache__/
+*/*/__pycache__/
+
+# Data and vector db
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+backend/data/chroma/*
+!backend/data/chroma/.gitkeep
+backend/data/database/*
+!backend/data/database/.gitkeep
+
+# Node / Frontend
+node_modules/
+*/node_modules/
+dist/
+*/dist/
+dist-ssr/
+*.local
+.DS_Store
+Thumbs.db
